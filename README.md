@@ -1,19 +1,16 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# setup-mobile-version
+# Mobile-portofolio
 
-> is to learn setup & mobile version skeleton.
+> this project is for learning mobile skeleton.
 
 ## Built With
 
-- html,css.
-- github workflows,figma.
+- HTML,CSS.
+- githup workflows,figma.
 - linters,gitignore.
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
 
 To get a local copy up and running follow these simple example steps.
 
@@ -29,7 +26,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Deployment
 
-👤 **sameh tantawy**
+👤 **Sameh Tantawy**
 
 - GitHub: [@githubhandle](https://github.com/sameh080081)
 - Twitter: [@twitterhandle](https://twitter.com/sameh080081)
@@ -47,7 +44,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-microverse activities is the main source.
+- Microverse Curriculum
 
 ## 📝 License
 
