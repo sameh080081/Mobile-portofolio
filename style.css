@@ -20,7 +20,7 @@ header {
   position: static;
   width: 76px;
   height: 20px;
-  font-family: "Poppins", "sanserif";
+  font-family: poppins, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -38,11 +38,12 @@ header {
 .info {
   list-style: none;
 }
+
 .myname {
   position: static;
   width: 327px;
   height: 150px;
-  font-family: "Poppins", sans-serif;
+  font-family: poppins, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -52,11 +53,12 @@ header {
   color: #172b4d;
   padding-top: 70px;
 }
+
 .intro {
   position: static;
   left: 24px;
   top: 276px;
-  font-family: "Poppins";
+  font-family: poppins, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -64,12 +66,11 @@ header {
   color: #344563;
   padding-top: 20px;
 }
+
 .connect {
   position: static;
   padding-top: 15px;
-  left: 0px;
-  top: 0px;
-  font-family: "Poppins";
+  font-family: poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
