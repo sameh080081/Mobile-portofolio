@@ -1,6 +1,15 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .main {
   width: 100%;
-  height: 718px;
+  height: 608px;
+  background-image: url(./images/background/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 header {
@@ -34,11 +43,8 @@ header {
   width: 100%;
   list-style: none;
   flex-direction: column;
-  padding-top: 100px;
+  padding-top: 90px;
   padding-left: 15px;
-  background-image: url(./images/background/background.png);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .myname {
@@ -63,12 +69,12 @@ header {
   font-size: 16px;
   line-height: 24px;
   color: #344563;
-  padding-top: 25px;
+  padding-top: 30px;
   align-items: flex-start;
 }
 
 .connect {
-  padding-top: 20px;
+  padding-top: 25px;
   font-family: poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -82,6 +88,6 @@ header {
   justify-content: space-between;
   align-items: center;
   width: 170px;
-  height: 30px;
-  padding-top: 25px;
+  height: 33px;
+  padding-top: 15px;
 }
