@@ -439,14 +439,14 @@ h6 {
   left: 24px;
   top: 114px;
   grid-area: top;
-  margin: 24px 0px;
+  margin: 24px 1px;
 }
 
 .myself {
   position: static;
   width: 250px;
   height: 101px;
-  font-family: "Poppins";
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -460,7 +460,7 @@ h6 {
   position: static;
   width: 300px;
   height: 144px;
-  font-family: "Poppins";
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -474,7 +474,7 @@ h6 {
   position: static;
   width: 130px;
   height: 24px;
-  font-family: "Poppins";
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -506,7 +506,7 @@ h6 {
   border: 1px solid #6070ff;
   box-sizing: border-box;
   border-radius: 8px;
-  font-family: "Poppins";
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -590,26 +590,25 @@ h6 {
   height: 72px;
 }
 
-h7 {
+.h7 {
   display: flex;
   font-family: Poppins, sans-serif;
-  position: normal;
+  font-style: normal;
   height: 24px;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   align-items: center;
-  color: #000000;
+  color: #000;
 }
 
-h8 {
+.h8 {
   display: flex;
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
-  display: flex;
   align-items: center;
   color: #253858;
 }
