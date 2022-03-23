@@ -104,7 +104,6 @@ header {
   border-radius: 16px;
   flex: none;
   order: 0;
-  margin: 88px 0px;
 }
 
 .snap {
@@ -117,7 +116,6 @@ header {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
   list-style: none;
   position: static;
   width: 295px;
@@ -126,7 +124,6 @@ header {
   top: 248px;
   flex: none;
   order: 1;
-  margin: 12px 0px;
 }
 
 h2 {
@@ -136,7 +133,7 @@ h2 {
   font-weight: 700;
   font-size: 32px;
   color: #172b4d;
-  margin: 0px;
+  margin: 1px;
 }
 
 .bio {
@@ -179,7 +176,7 @@ h6 {
   font-weight: 400;
   font-size: 15px;
   color: #344563;
-  margin: 0px;
+  margin: 1px;
 }
 
 .tags {
@@ -266,7 +263,7 @@ h6 {
   border-radius: 16px;
   flex: none;
   order: 1;
-  margin: 88px 0px;
+  margin-top: 88px;
 }
 
 .card3 {
@@ -285,7 +282,7 @@ h6 {
   border-radius: 16px;
   flex: none;
   order: 2;
-  margin: 88px 0px;
+  margin-top: 88px;
 }
 
 .card4 {
@@ -304,7 +301,7 @@ h6 {
   border-radius: 16px;
   flex: none;
   order: 3;
-  margin: 88px 0px;
+  margin-top: 88px;
 }
 
 @media only screen and (min-width: 650px) {
@@ -327,7 +324,7 @@ h6 {
     border-radius: 16px;
     flex: none;
     order: 0;
-    margin: 88px 0px;
+    margin-top: 88px;
   }
 
   .card2 {
@@ -349,7 +346,7 @@ h6 {
     border-radius: 16px;
     flex: none;
     order: 1;
-    margin: 88px 0px;
+    margin-top: 88px;
   }
 
   .card3 {
@@ -371,7 +368,7 @@ h6 {
     border-radius: 16px;
     flex: none;
     order: 2;
-    margin: 88px 0px;
+    margin-top: 88px;
   }
 
   .card4 {
@@ -393,7 +390,7 @@ h6 {
     border-radius: 16px;
     flex: none;
     order: 3;
-    margin: 88px 0px;
+    margin-top: 88px;
   }
 
   .about {
