@@ -90,12 +90,11 @@ header {
   grid-template-areas:
     "snap"
     "block";
-  display: flex;
   flex-direction: column;
   align-items: center;
   padding: 16px;
   position: static;
-  width: 327px;
+  width: 90%;
   height: 552px;
   left: calc(50% - 327px / 2);
   top: 114px;
@@ -107,22 +106,6 @@ header {
   order: 0;
   flex-grow: 0;
   margin: 88px 0px;
-}
-
-@media only screen and (min-width: 550px) {
-  .card1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: "snap block";
-    height: 110vh;
-    background: #ffffff;
-    border: 1px solid #dfe1e6;
-    box-sizing: border-box;
-    border-radius: 16px;
-    padding: 20px;
-    padding-left: 25px;
-    justify-content: center;
-  }
 }
 
 .snap {
@@ -145,7 +128,6 @@ header {
   top: 248px;
   flex: none;
   order: 1;
-  flex-grow: 0;
   margin: 12px 0px;
 }
 
@@ -279,7 +261,7 @@ h6 {
   align-items: center;
   padding: 16px;
   position: static;
-  width: 327px;
+  width: 88%;
   height: 596px;
   left: calc(50% - 327px / 2);
   top: 754px;
@@ -289,7 +271,6 @@ h6 {
   border-radius: 16px;
   flex: none;
   order: 1;
-  flex-grow: 0;
   margin: 88px 0px;
 }
 
@@ -299,7 +280,7 @@ h6 {
   align-items: center;
   padding: 16px;
   position: static;
-  width: 327px;
+  width: 88%;
   height: 552px;
   left: calc(50% - 327px / 2);
   top: 1438px;
@@ -309,7 +290,6 @@ h6 {
   border-radius: 16px;
   flex: none;
   order: 2;
-  flex-grow: 0;
   margin: 88px 0px;
 }
 
@@ -319,7 +299,7 @@ h6 {
   align-items: center;
   padding: 16px;
   position: static;
-  width: 327px;
+  width: 88%;
   height: 596px;
   left: calc(50% - 327px / 2);
   top: 2078px;
@@ -329,6 +309,95 @@ h6 {
   border-radius: 16px;
   flex: none;
   order: 3;
-  flex-grow: 0;
   margin: 88px 0px;
+}
+
+@media only screen and (min-width: 650px) {
+  .card1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "snap block";
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    position: static;
+    width: 88%;
+    height: 300px;
+    left: calc(50% - 327px / 2);
+    top: 114px;
+    background: #ffffff;
+    border: 1px solid #dfe1e6;
+    box-sizing: border-box;
+    border-radius: 16px;
+    flex: none;
+    order: 0;
+    margin: 88px 0px;
+  }
+
+  .card2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "snap block";
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    position: static;
+    width: 88%;
+    height: 350px;
+    left: calc(50% - 327px / 2);
+    top: 754px;
+    background: #ffffff;
+    border: 1px solid #dfe1e6;
+    box-sizing: border-box;
+    border-radius: 16px;
+    flex: none;
+    order: 1;
+    margin: 88px 0px;
+  }
+
+  .card3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "snap block";
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    position: static;
+    width: 88%;
+    height: 350px;
+    left: calc(50% - 327px / 2);
+    top: 1438px;
+    background: #ffffff;
+    border: 1px solid #dfe1e6;
+    box-sizing: border-box;
+    border-radius: 16px;
+    flex: none;
+    order: 2;
+    margin: 88px 0px;
+  }
+
+  .card4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "snap block";
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    position: static;
+    width: 88%;
+    height: 350px;
+    left: calc(50% - 327px / 2);
+    top: 2078px;
+    background: #ffffff;
+    border: 1px solid #dfe1e6;
+    box-sizing: border-box;
+    border-radius: 16px;
+    flex: none;
+    order: 3;
+    margin: 88px 0px;
+  }
 }
