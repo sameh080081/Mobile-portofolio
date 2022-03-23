@@ -199,6 +199,7 @@ h6 {
   letter-spacing: 0.03em;
   color: #6070ff;
 }
+
 .css {
   position: static;
   width: 45px;
@@ -238,7 +239,7 @@ h6 {
   background: #fff;
   border-radius: 8px;
   border: 1px solid #6070ff;
-  font-family: "Poppins";
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -304,7 +305,7 @@ h6 {
   margin-top: 88px;
 }
 
-@media only screen and (min-width: 650px) {
+@media only screen and (min-width: 700px) {
   .card1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -394,12 +395,221 @@ h6 {
   }
 
   .about {
-    position: absolute;
-    width: 375px;
-    height: 1263px;
-    left: 375px;
-    top: 4769px;
-    background: #fff;
-    transform: rotate(-180deg);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "top skills";
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: static;
+    width: 88%;
+    height: 1125.15px;
+    box-sizing: border-box;
+    flex: none;
   }
+}
+
+.about {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "top"
+    "skills";
+  flex-direction: column;
+  align-items: center;
+  position: static;
+  width: 88%;
+  height: 600px;
+  left: calc(50% - 375px / 2);
+  margin-top: 80px;
+  margin-bottom: 50px;
+  flex: none;
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  list-style: none;
+  position: static;
+  width: 327px;
+  height: 409px;
+  left: 24px;
+  top: 114px;
+  grid-area: top;
+  margin: 24px 0px;
+}
+
+.myself {
+  position: static;
+  width: 250px;
+  height: 101px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+}
+
+.welcome {
+  position: static;
+  width: 300px;
+  height: 144px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.contact {
+  position: static;
+  width: 130px;
+  height: 24px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+}
+
+.icon {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  position: static;
+  width: 200px;
+  height: 40px;
+  margin-top: 8px;
+  margin-bottom: 10px;
+}
+
+.resume {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: static;
+  width: 162px;
+  height: 48px;
+  top: calc(50% - 48px / 2 + 180.5px);
+  border: 1px solid #6070ff;
+  box-sizing: border-box;
+  border-radius: 8px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  color: #396df2;
+  background-color: #fff;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  position: static;
+  width: 327px;
+  height: 464.15px;
+  grid-area: skills;
+  list-style: none;
+}
+
+.lang {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: static;
+  width: 303px;
+  height: 72px;
+}
+
+.jscr {
+  display: flex;
+  align-items: center;
+  position: static;
+  width: 303px;
+  height: 66.72px;
+  background: #f7f7f9;
+  border-radius: 8px;
+  flex: none;
+}
+
+.ht {
+  display: flex;
+  align-items: center;
+  position: static;
+  width: 303px;
+  height: 66.72px;
+  background: #f7f7f9;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.cs {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: static;
+  width: 303px;
+  height: 66.72px;
+  background: #f7f7f9;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.fw {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: static;
+  width: 303px;
+  height: 72px;
+  margin-top: 8px;
+}
+
+.sk {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: static;
+  width: 303px;
+  height: 72px;
+}
+
+h7 {
+  display: flex;
+  font-family: Poppins, sans-serif;
+  position: normal;
+  height: 24px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  align-items: center;
+  color: #000000;
+}
+
+h8 {
+  display: flex;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #253858;
 }
