@@ -125,12 +125,18 @@ header {
 .block {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
   list-style: none;
   position: static;
-  width: 100%;
-  height: auto;
-  grid-area: block;
-  margin: 0;
+  width: 295px;
+  height: 288px;
+  left: 16px;
+  top: 248px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 12px 0px;
 }
 
 h2 {
@@ -143,7 +149,7 @@ h2 {
   margin: 0px;
 }
 
-bio {
+.bio {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -152,7 +158,7 @@ bio {
   width: 236px;
   height: 32px;
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 5px;
 }
 
 .dot {
@@ -189,8 +195,8 @@ h6 {
   margin: 0px;
 }
 
-tags {
-  margin-top: 50px;
+.tags {
+  margin-top: 15px;
   margin-bottom: 20px;
 }
 
