@@ -121,14 +121,12 @@ header {
   grid-area: snap;
 }
 
-block {
+.block {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   position: static;
   width: 100%;
   height: auto;
-  margin: 0px;
   grid-area: block;
 }
 
