@@ -84,7 +84,7 @@ header {
   padding: 15px;
 }
 
-.card1 {
+card1 {
   display: grid;
   grid-template-rows: 1fr 1fr;
   grid-template-areas:
@@ -100,7 +100,7 @@ header {
 }
 
 @media only screen and (min-width: 550px) {
-  .card1 {
+  card1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "snap block";
@@ -121,7 +121,7 @@ header {
   grid-area: snap;
 }
 
-.block {
+block {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
