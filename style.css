@@ -119,15 +119,19 @@ header {
   position: static;
   border-radius: 8px;
   grid-area: snap;
+  margin: 0px;
 }
 
 .block {
   display: flex;
   flex-direction: column;
+  list-style: none;
   position: static;
   width: 100%;
   height: auto;
   grid-area: block;
+  margin: 0;
+  background-color: brown;
 }
 
 h2 {
@@ -148,13 +152,14 @@ bio {
   position: static;
   width: 236px;
   height: 32px;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .dot {
   width: 8px;
   height: 8px;
+  margin: 0px;
 }
 
 h3 {
@@ -163,6 +168,7 @@ h3 {
   font-weight: 600;
   font-size: 13px;
   color: #344563;
+  margin: 0px;
 }
 
 h5 {
@@ -185,7 +191,7 @@ h6 {
 }
 
 tags {
-  margin-top: 20px;
+  margin-top: 50px;
   margin-bottom: 20px;
 }
 
