@@ -98,13 +98,12 @@ header {
   height: 552px;
   left: calc(50% - 327px / 2);
   top: 114px;
-  background: #ffffff;
+  background: #fff;
   border: 1px solid #dfe1e6;
   box-sizing: border-box;
   border-radius: 16px;
   flex: none;
   order: 0;
-  flex-grow: 0;
   margin: 88px 0px;
 }
 
@@ -112,7 +111,6 @@ header {
   position: static;
   border-radius: 8px;
   grid-area: snap;
-  margin: 0px;
 }
 
 .block {
@@ -133,7 +131,7 @@ header {
 
 h2 {
   position: static;
-  font-family: "Poppins";
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -149,27 +147,24 @@ h2 {
   position: static;
   width: 236px;
   height: 32px;
-  margin-top: 0px;
   margin-bottom: 5px;
 }
 
 .dot {
   width: 8px;
   height: 8px;
-  margin: 0px;
 }
 
 h3 {
-  font-family: "Poppins";
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
   color: #344563;
-  margin: 0px;
 }
 
 h5 {
-  font-family: "Poppins";
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -179,7 +174,7 @@ h5 {
 h6 {
   position: static;
   width: 82%;
-  font-family: "Poppins";
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -199,7 +194,7 @@ h6 {
   background: #ebebff;
   border-radius: 8px;
   border: 1px solid #ebebff;
-  font-family: "Poppins";
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -214,7 +209,7 @@ h6 {
   background: #ebebff;
   border-radius: 8px;
   border: 1px solid #ebebff;
-  font-family: "Poppins";
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -230,7 +225,7 @@ h6 {
   background: #ebebff;
   border-radius: 8px;
   border: 1px solid #ebebff;
-  font-family: "Poppins";
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -243,7 +238,7 @@ h6 {
   position: static;
   width: 124px;
   height: 48px;
-  background: #ffffff;
+  background: #fff;
   border-radius: 8px;
   border: 1px solid #6070ff;
   font-family: "Poppins";
@@ -265,7 +260,7 @@ h6 {
   height: 596px;
   left: calc(50% - 327px / 2);
   top: 754px;
-  background: #ffffff;
+  background: #fff;
   border: 1px solid #dfe1e6;
   box-sizing: border-box;
   border-radius: 16px;
@@ -284,7 +279,7 @@ h6 {
   height: 552px;
   left: calc(50% - 327px / 2);
   top: 1438px;
-  background: #ffffff;
+  background: #fff;
   border: 1px solid #dfe1e6;
   box-sizing: border-box;
   border-radius: 16px;
@@ -303,7 +298,7 @@ h6 {
   height: 596px;
   left: calc(50% - 327px / 2);
   top: 2078px;
-  background: #ffffff;
+  background: #fff;
   border: 1px solid #dfe1e6;
   box-sizing: border-box;
   border-radius: 16px;
@@ -326,7 +321,7 @@ h6 {
     height: 300px;
     left: calc(50% - 327px / 2);
     top: 114px;
-    background: #ffffff;
+    background: #fff;
     border: 1px solid #dfe1e6;
     box-sizing: border-box;
     border-radius: 16px;
@@ -348,7 +343,7 @@ h6 {
     height: 350px;
     left: calc(50% - 327px / 2);
     top: 754px;
-    background: #ffffff;
+    background: #fff;
     border: 1px solid #dfe1e6;
     box-sizing: border-box;
     border-radius: 16px;
@@ -370,7 +365,7 @@ h6 {
     height: 350px;
     left: calc(50% - 327px / 2);
     top: 1438px;
-    background: #ffffff;
+    background: #fff;
     border: 1px solid #dfe1e6;
     box-sizing: border-box;
     border-radius: 16px;
@@ -392,12 +387,22 @@ h6 {
     height: 350px;
     left: calc(50% - 327px / 2);
     top: 2078px;
-    background: #ffffff;
+    background: #fff;
     border: 1px solid #dfe1e6;
     box-sizing: border-box;
     border-radius: 16px;
     flex: none;
     order: 3;
     margin: 88px 0px;
+  }
+
+  .about {
+    position: absolute;
+    width: 375px;
+    height: 1263px;
+    left: 375px;
+    top: 4769px;
+    background: #fff;
+    transform: rotate(-180deg);
   }
 }
