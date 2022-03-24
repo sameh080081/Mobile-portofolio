@@ -105,12 +105,12 @@ header {
 
 .h9 {
   position: static;
+  width: 295px;
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   color: #172b4d;
-  margin: 1px;
 }
 
 .bio {
@@ -225,8 +225,13 @@ h6 {
   color: #6070ff;
 }
 
-.card1 {
-  display: flex;
+.cards1 {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "snap"
+    "block";
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -234,74 +239,44 @@ h6 {
   position: static;
   width: 88%;
   height: 552px;
+  margin: auto;
   left: calc(50% - 327px / 2);
-  top: 114px;
   background: #fff;
   border: 1px solid #dfe1e6;
   box-sizing: border-box;
   border-radius: 16px;
-  order: 0;
   margin-top: 88px;
 }
 
-.card2 {
-  display: flex;
+.cards2 {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "snap"
+    "block";
   flex-direction: column;
-  align-items: center;
+  justify-content: center;
+  align-items: flex-start;
+  justify-items: center;
   padding: 16px;
   position: static;
   width: 88%;
   height: 596px;
+  margin: auto;
   left: calc(50% - 327px / 2);
-  top: 754px;
   background: #fff;
   border: 1px solid #dfe1e6;
   box-sizing: border-box;
   border-radius: 16px;
-  order: 1;
   margin-top: 88px;
-}
-
-.card3 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 16px;
-  position: static;
-  width: 88%;
-  height: 552px;
-  left: calc(50% - 327px / 2);
-  top: 1438px;
-  background: #fff;
-  border: 1px solid #dfe1e6;
-  box-sizing: border-box;
-  border-radius: 16px;
-  order: 2;
-  margin-top: 88px;
-}
-
-.card4 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 16px;
-  position: static;
-  width: 88%;
-  height: 596px;
-  left: calc(50% - 327px / 2);
-  top: 2078px;
-  background: #fff;
-  border: 1px solid #dfe1e6;
-  box-sizing: border-box;
-  border-radius: 16px;
-  flex: none;
-  order: 3;
-  margin-top: 88px;
+  padding-bottom: 50px;
 }
 
 @media only screen and (min-width: 700px) {
-  .card1 {
+  .cards1 {
     display: grid;
+    grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "snap block";
     flex-direction: row;
@@ -309,6 +284,7 @@ h6 {
     align-items: center;
     position: static;
     width: 88%;
+    margin: auto;
     height: 350px;
     left: calc(50% - 327px / 2);
     top: 114px;
@@ -321,8 +297,9 @@ h6 {
     margin-top: 88px;
   }
 
-  .card2 {
+  .cards2 {
     display: grid;
+    grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "snap block";
     flex-direction: row;
@@ -330,59 +307,16 @@ h6 {
     align-items: center;
     position: static;
     width: 88%;
+    margin: auto;
     height: 350px;
     left: calc(50% - 327px / 2);
-    top: 754px;
+    top: 114px;
     background: #fff;
     border: 1px solid #dfe1e6;
     box-sizing: border-box;
     border-radius: 16px;
     flex: none;
-    order: 1;
-    margin-top: 88px;
-  }
-
-  .card3 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: "snap block";
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 16px;
-    position: static;
-    width: 88%;
-    height: 350px;
-    left: calc(50% - 327px / 2);
-    top: 1438px;
-    background: #fff;
-    border: 1px solid #dfe1e6;
-    box-sizing: border-box;
-    border-radius: 16px;
-    flex: none;
-    order: 2;
-    margin-top: 88px;
-  }
-
-  .card4 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: "snap block";
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 16px;
-    position: static;
-    width: 88%;
-    height: 350px;
-    left: calc(50% - 327px / 2);
-    top: 2078px;
-    background: #fff;
-    border: 1px solid #dfe1e6;
-    box-sizing: border-box;
-    border-radius: 16px;
-    flex: none;
-    order: 3;
+    order: 0;
     margin-top: 88px;
   }
 
