@@ -3,6 +3,7 @@
 # Mobile-portofolio
 
 > this project is for learning mobile skeleton.
+> HTML,CSS files is updated for the hole webpage "mobile mode".
 
 ## Built With
 
