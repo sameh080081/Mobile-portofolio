@@ -103,7 +103,7 @@ header {
   padding: 1px;
 }
 
-h2 {
+.h9 {
   position: static;
   font-family: Poppins, sans-serif;
   font-style: normal;
@@ -462,7 +462,7 @@ h6 {
   margin-bottom: 20px;
 }
 
-h9 {
+h2 {
   position: static;
   width: 130px;
   height: 24px;
