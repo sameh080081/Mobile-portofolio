@@ -162,8 +162,7 @@ h6 {
 }
 
 .html {
-  float: none;
-  position: static;
+  float: left;
   width: 53px;
   height: 24px;
   background: #ebebff;
@@ -179,7 +178,9 @@ h6 {
 }
 
 .css {
-  position: static;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
   width: 45px;
   height: 24px;
   background: #ebebff;
@@ -195,7 +196,7 @@ h6 {
 }
 
 .js {
-  position: static;
+  float: left;
   width: 89px;
   height: 24px;
   background: #ebebff;
