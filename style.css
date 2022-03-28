@@ -162,6 +162,7 @@ h6 {
 }
 
 .html {
+  float: none;
   position: static;
   width: 53px;
   height: 24px;
@@ -178,7 +179,6 @@ h6 {
 }
 
 .css {
-  float: right;
   position: static;
   width: 45px;
   height: 24px;
@@ -195,7 +195,6 @@ h6 {
 }
 
 .js {
-  float: right;
   position: static;
   width: 89px;
   height: 24px;
