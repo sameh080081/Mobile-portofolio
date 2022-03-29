@@ -463,7 +463,6 @@ button:active:enabled {
   height: 464.15px;
   grid-area: skills;
   list-style: none;
-  margin: 0px;
 }
 
 .lang {
@@ -560,8 +559,7 @@ button:active:enabled {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url(./images/background/contactform.png),
-    url(./images/background/Contactcolor.png);
+  background-image: url(./images/background/Contactcolor.png);
   background-repeat: no-repeat;
   background-position: right;
   width: 375px;
@@ -573,10 +571,9 @@ button:active:enabled {
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
-  color: #ffffff;
+  color: #fff;
   width: 801px;
   text-align: center;
-  margin: 0px;
   margin-top: 120px;
   margin-bottom: 20px;
 }
@@ -591,7 +588,6 @@ button:active:enabled {
   height: 170px;
   text-align: center;
   color: #ebebff;
-  margin: 0px;
 }
 
 .form {
@@ -603,7 +599,7 @@ button:active:enabled {
 }
 
 .input1 {
-  background: #ffffff;
+  background: #fff;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
   font-family: Poppins, sans-serif;
@@ -616,7 +612,7 @@ button:active:enabled {
 }
 
 .message {
-  background: #ffffff;
+  background: #fff;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
   font-family: Poppins, sans-serif;
@@ -659,5 +655,6 @@ button:active:enabled {
   border-radius: 10px;
   background-color: #0d151e;
   width: 134px;
-  margin-top: 50px;
+  margin-top: 40px;
+  margin-bottom: 10px;
 }
