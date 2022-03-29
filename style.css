@@ -343,10 +343,11 @@ h6 {
     "top"
     "skills";
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   position: static;
   width: 88%;
-  height: 600px;
+  height: 900px;
   left: calc(50% - 375px / 2);
   margin-top: 80px;
   margin-bottom: 50px;
@@ -551,4 +552,109 @@ button:active:enabled {
 
 .ic {
   margin-left: 10px;
+}
+
+.form-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./images/background/Contactcolor.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  width: 375px;
+  height: 779px;
+}
+
+.form-section > h2 {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  color: #fff;
+  width: 801px;
+  text-align: center;
+  margin-top: 120px;
+  margin-bottom: 20px;
+}
+
+.form-section > p {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  width: 327px;
+  height: 170px;
+  text-align: center;
+  color: #ebebff;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 380px;
+}
+
+.input1 {
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  color: #172b4d;
+  width: 327px;
+  height: 48px;
+}
+
+.message {
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  width: 327px;
+  height: 170px;
+}
+
+.message ::placeholder {
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.submit {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: static;
+  width: 140px;
+  height: 48px;
+  border: 1px solid #6070ff;
+  box-sizing: border-box;
+  border-radius: 8px;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  color: #396df2;
+  background-color: #fff;
+  margin-top: 10px;
+}
+
+.dash {
+  border: 2px solid #0d151e;
+  border-radius: 10px;
+  background-color: #0d151e;
+  width: 134px;
+  margin-top: 40px;
+  margin-bottom: 10px;
 }
