@@ -1,8 +1,8 @@
-body{
-  background: #E5E5E5;
+body {
+  background: #e5e5e5;
 }
 
-.page1{
+.page1 {
   background-image: url(./images/background/background.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -318,7 +318,6 @@ h6 {
   grid-area: top;
   width: 327px;
   height: 440px;
-  grid-area: top;
   margin-top: 120px;
 }
 
@@ -372,6 +371,18 @@ h6 {
   height: 464.15px;
   grid-area: skills;
   list-style: none;
+}
+
+h2 {
+  position: static;
+  width: 130px;
+  height: 24px;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
 }
 
 .form-section {
@@ -476,18 +487,6 @@ h6 {
   width: 134px;
   margin-top: 40px;
   margin-bottom: 10px;
-}
-
-h2 {
-  position: static;
-  width: 130px;
-  height: 24px;
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  color: #7f8cff;
 }
 
 .resume {
@@ -612,16 +611,15 @@ button:active:enabled {
 }
 
 .dash1 {
-  border: 1px solid #DFE1E6;;
+  border: 1px solid #dfe1e6;
   border-radius: 10px;
-  background-color: #DFE1E6;;
+  background-color: #dfe1e6;
   width: 303px;
 }
 
-
 @media only screen and (min-width: 650px) {
 
-  .page1{
+  .page1 {
     background-image: url(./images/background/shape-desktop.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -676,7 +674,7 @@ button:active:enabled {
 
   .icons {
     padding-left: 110px;
-    padding-top: 0px;
+    padding-top: 1px;
   }
 
   .cards1 {
@@ -773,14 +771,14 @@ button:active:enabled {
   }
 
   .top{
-    margin: 0px;
+    margin: 1px;
     width: 100%;
   }
 
   .skills{
     width: 100%;
-    margin: 0px;
-    padding: 0px;
+    margin: 1px;
+    padding: 1px;
   }
 
   .welcome{
@@ -789,7 +787,7 @@ button:active:enabled {
   }
 
   .icon{
-    margin-top: 0px;
+    margin-top: 1px;
   }
 
   .boxs{
@@ -837,7 +835,7 @@ button:active:enabled {
     height: 120px;
     background: #f7f7f9;
     border-radius: 8px;
-    margin: 0px;
+    margin: 1px;
   }
   
   .cs {
