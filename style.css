@@ -823,7 +823,7 @@ button:active:enabled {
     border-radius: 8px;
     margin: 1px;
   }
-  
+
   .ht {
     display: flex;
     flex-direction: column;
@@ -836,7 +836,7 @@ button:active:enabled {
     border-radius: 8px;
     margin: 1px;
   }
-  
+
   .cs {
     display: flex;
     flex-direction: column;
@@ -847,7 +847,7 @@ button:active:enabled {
     height: 120px;
     background: #f7f7f9;
     border-radius: 8px;
-    margin: 0px;
+    margin: 1px;
   }
 
   .ic {
@@ -880,5 +880,4 @@ button:active:enabled {
   .form {
     align-items: center;
   }
-
 }
