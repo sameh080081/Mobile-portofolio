@@ -737,7 +737,7 @@ button:active:enabled {
     width: 100%;
   }
 
-  .ruby{
+  .ruby {
       position: static;
       width: 105px;
       height: 24px;
@@ -770,27 +770,27 @@ button:active:enabled {
     height: 600px;
   }
 
-  .top{
+  .top {
     margin: 1px;
     width: 100%;
   }
 
-  .skills{
+  .skills {
     width: 100%;
     margin: 1px;
     padding: 1px;
   }
 
-  .welcome{
+  .welcome {
     width: 86%;
     height: 100px;
   }
 
-  .icon{
+  .icon {
     margin-top: 1px;
   }
 
-  .boxs{
+  .boxs {
     display: flex;
     justify-content: space-between;
     width: 75%;
@@ -808,7 +808,7 @@ button:active:enabled {
     width: 85%;
   }
 
-  .dash1{
+  .dash1 {
     width: 85%;
   }
 
@@ -856,7 +856,7 @@ button:active:enabled {
     margin-left: 10px;
   }
 
-  .h8{
+  .h8 {
     margin: 0px;
     margin-left: 10px;
   }
@@ -878,7 +878,7 @@ button:active:enabled {
     height: 102px;
   }
 
-  .form{
+  .form {
     align-items: center;
   }
 
