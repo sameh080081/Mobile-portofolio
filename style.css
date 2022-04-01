@@ -113,6 +113,11 @@ header > div {
   position: static;
   border-radius: 8px;
   grid-area: snap;
+  transition: transform 2s;
+}
+
+.snap:hover {
+transform:scale(1.05);
 }
 
 .block {
