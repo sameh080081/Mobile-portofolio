@@ -11,7 +11,7 @@ body {
   background-image: url(./images/background/background.png);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 718px;
+  height: 740px;
 }
 
 header {
@@ -664,6 +664,7 @@ button:active:enabled {
   .myname {
     padding-top: 50px;
     padding-left: 100px;
+    width: 45%;
   }
 
   .intro {
@@ -677,6 +678,10 @@ button:active:enabled {
   }
 
   .icons {
+    display: flex;
+    justify-content: space-between;
+    width: 280px;
+    height: 33px;
     padding-left: 110px;
     padding-top: 1px;
   }
