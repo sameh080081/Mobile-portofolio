@@ -39,6 +39,14 @@ header > div {
   line-height: 20px;
   align-items: center;
   color: #6070ff;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    transform: rotate(360deg);
+  }
 }
 
 .menu {
@@ -105,6 +113,11 @@ header > div {
   position: static;
   border-radius: 8px;
   grid-area: snap;
+  transition: transform 2s;
+}
+
+.snap:hover {
+  transform: scale(1.05);
 }
 
 .block {
@@ -423,6 +436,11 @@ h2 {
   height: 170px;
   text-align: center;
   color: #ebebff;
+  transition: transform 2s;
+}
+
+.form-section > p:hover {
+  transform: translate(10%);
 }
 
 .form {
