@@ -618,7 +618,6 @@ button:active:enabled {
 }
 
 @media only screen and (min-width: 650px) {
-
   .page1 {
     background-image: url(./images/background/shape-desktop.png);
     background-repeat: no-repeat;
@@ -738,19 +737,19 @@ button:active:enabled {
   }
 
   .ruby {
-      position: static;
-      width: 105px;
-      height: 24px;
-      background: #ebebff;
-      border-radius: 8px;
-      border: 1px solid #ebebff;
-      font-family: Poppins, sans-serif;
-      font-style: normal;
-      font-weight: 500;
-      font-size: 12px;
-      line-height: 16px;
-      letter-spacing: 0.03em;
-      color: #6070ff;
+    position: static;
+    width: 105px;
+    height: 24px;
+    background: #ebebff;
+    border-radius: 8px;
+    border: 1px solid #ebebff;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: #6070ff;
   }
 
   .about {
@@ -822,7 +821,7 @@ button:active:enabled {
     height: 120px;
     background: #f7f7f9;
     border-radius: 8px;
-    margin: 0px;
+    margin: 1px;
   }
   
   .ht {
@@ -852,12 +851,12 @@ button:active:enabled {
   }
 
   .ic {
-    margin: 0px;
+    margin: 1px;
     margin-left: 10px;
   }
 
   .h8 {
-    margin: 0px;
+    margin: 1px;
     margin-left: 10px;
   }
 
