@@ -190,12 +190,11 @@ h6 {
 .tags {
   margin-top: 15px;
   margin-bottom: 20px;
-  display: flex;
-  flex-direction: column;
+  width: 100%;
 }
 
 .html {
-  /* position: static; */
+  float: left;
   width: 53px;
   height: 24px;
   background: #ebebff;
@@ -208,11 +207,10 @@ h6 {
   line-height: 16px;
   letter-spacing: 0.03em;
   color: #6070ff;
-  float: right;
 }
 
 .css {
-  position: static;
+  float: left;
   width: 45px;
   height: 24px;
   background: #ebebff;
@@ -225,10 +223,12 @@ h6 {
   line-height: 16px;
   letter-spacing: 0.03em;
   color: #6070ff;
+  padding-left: 10px;
+  padding-right: 10px ;
 }
 
 .js {
-  position: static;
+  float: left;
   width: 89px;
   height: 24px;
   background: #ebebff;
