@@ -190,10 +190,12 @@ h6 {
 .tags {
   margin-top: 15px;
   margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 .html {
-  position: static;
+  /* position: static; */
   width: 53px;
   height: 24px;
   background: #ebebff;
@@ -206,6 +208,7 @@ h6 {
   line-height: 16px;
   letter-spacing: 0.03em;
   color: #6070ff;
+  float: right;
 }
 
 .css {
